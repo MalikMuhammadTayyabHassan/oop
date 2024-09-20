@@ -60,10 +60,10 @@ class Artwork {
 
 public class Demo {
     public static void main(String[] args) {
-        Artist artist1 = new Artist("Leonardo da Vinci");
+        Artist artist1 = new Artist(" Vincent van Gogh");
 
-        Artwork artwork1 = new Artwork("Mona Lisa", 1503, artist1);
-        Artwork artwork2 = new Artwork("The Last Supper", 1498);
+        Artwork artwork1 = new Artwork("Starry Night", 1889, artist1);
+        Artwork artwork2 = new Artwork("Sunflowers", 1498);
 
         System.out.println("Original Artworks:");
         artwork1.displayInformation();
